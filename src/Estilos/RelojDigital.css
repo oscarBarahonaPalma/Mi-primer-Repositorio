@@ -6,6 +6,9 @@
     margin: 0;
     width: 9%;
     height: 8%;
+    background-color: black;
+    border: solid 2px orangered;
+    border-radius: 25px;
     
   }
   

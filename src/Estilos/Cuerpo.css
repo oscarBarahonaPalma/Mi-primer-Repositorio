@@ -14,14 +14,18 @@ img {
     border-radius: 50%;
     border-bottom: solid 8px white;
     transform: scale(0.8); /* Usa transform para aplicar scale */
+    border-right: solid 4px orangered;
+    border-left: solid 4px orangered;
 }
 
 #Padre_Redes {
     width: 19%;
     height: 248px;
     position: absolute;
-    left: 40px;
+    left: 260px;
     margin: 0;
+    
+    
 }
 
 #Facebook {
@@ -43,6 +47,10 @@ img {
     top: 14px;
     transform: scale(1.2);
     border-top: solid 5px blue;
+}
+#Facebook:hover{
+    background-color: red;
+    border-color: white;
 }
 
 #Facebook::before {
@@ -84,6 +92,10 @@ img {
     border-top: solid 5px yellowgreen;
     
 }
+#Whatsapp:hover{
+    background-color: green;
+    border-color: white;
+}
 
 #Whatsapp::before {
     content: "";
@@ -122,6 +134,11 @@ img {
     transform: scale(1.2) rotate(180deg); 
     border-top: solid 5px #F20587;/* Usa transform para aplicar scale y rotate */
     
+}
+#Istagram:hover{
+    background-color: 
+    #F20587;
+    border-color: white;
 }
 
 #Istagram::before {
