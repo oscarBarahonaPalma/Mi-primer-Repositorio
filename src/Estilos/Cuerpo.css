@@ -28,7 +28,7 @@ img {
     
 }
 
-#Facebook {
+#Facebook{
     display: flex;
     justify-content: center;   /* Centra el contenido horizontalmente */
     align-items: center;       /* Centra el contenido verticalmente */
@@ -114,7 +114,7 @@ img {
     right: 20px;
 }
 
-#Istagram {
+#Instagram {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,13 +135,13 @@ img {
     border-top: solid 5px #F20587;/* Usa transform para aplicar scale y rotate */
     
 }
-#Istagram:hover{
+#Instagram:hover{
     background-color: 
     #F20587;
     border-color: white;
 }
 
-#Istagram::before {
+#Instagram::before {
     content: "";
     background-image: url(../imagenes/Instagram.svg);
     background-size: cover;
@@ -178,7 +178,11 @@ img {
     transform: scale(1.2) rotate(270deg); /* Usa transform para aplicar scale y rotate */
     border-top: solid 5px #1FA2BF;
 }
-
+#Telegram:hover{
+    background-color: 
+    #1FA2BF;
+    border-color: white;
+}
 #Telegram::before {
     content: "";
     background-image: url(../imagenes/Telegram.svg);
