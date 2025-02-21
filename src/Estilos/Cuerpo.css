@@ -4,25 +4,27 @@
     background-color: #262626;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     position: relative;
 }
 
 img {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     border-bottom: solid 8px white;
     transform: scale(0.8); /* Usa transform para aplicar scale */
-    border-right: solid 4px orangered;
-    border-left: solid 4px orangered;
+    
+    
 }
 
 #Padre_Redes {
     width: 19%;
     height: 248px;
     position: absolute;
-    left: 260px;
+    transform: scale(0.8);
+    left: 770px;
+    top: 20px;
     margin: 0;
     
     
@@ -51,8 +53,10 @@ img {
 #Facebook:hover{
     background-color: red;
     border-color: white;
+    transform: scale(1);
+    background-image: url(../imagenes/Whatsapp1.png);
+    
 }
-
 #Facebook::before {
     content: "";
     background-image: url(../imagenes/Facebook.svg);

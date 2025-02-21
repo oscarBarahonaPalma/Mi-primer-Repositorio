@@ -1,0 +1,34 @@
+
+#Padre{
+    
+    width: 40%;
+    height: 45px;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    margin: 0;
+    padding: 0;
+    
+}
+#Presentacion{
+    color: orangered;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+  
+}
+#Subtitulo{
+    
+    color : white;
+    font-size: 1.1em;
+    text-align: justify;
+    margin: 4px 0 0 0 ;
+    padding: 0 35px 0 25px;
+    height: 105px;
+
+}
