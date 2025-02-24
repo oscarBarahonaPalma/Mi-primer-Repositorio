@@ -22,10 +22,12 @@ img {
     width: 19%;
     height: 248px;
     position: absolute;
-    transform: scale(0.8);
+   
     left: 770px;
     top: 20px;
     margin: 0;
+    animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4s; /* don't forget to set a duration! */
     
     
 }

@@ -8,6 +8,7 @@
     left: 30%;
     margin: 0;
     padding: 0;
+    perspective: 1000px;
     
 }
 #Presentacion{
@@ -16,11 +17,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+    font-size: 30px;
     width: 100%;
     margin: 0;
     padding: 0%;
-  
+    animation: lightSpeedInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4s; /* don't forget to set a duration! */
 }
 #Subtitulo{
     
@@ -30,5 +32,7 @@
     margin: 4px 0 0 0 ;
     padding: 0 35px 0 25px;
     height: 105px;
+    animation: lightSpeedInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4s; /* don't forget to set a duration! */
 
 }
